@@ -32,7 +32,7 @@ Solder the pots. You can clip the brackets near the bend to make soldering a bit
 
 Solder all the 0603 Rs and Cs first
 
-Solder diodes, U3 regulator, U4 voltage reference and power connector J4. Hook it up to power and check that the 5V, -12V, +12V and -10v reference voltages are OK
+Solder diodes, R1, U3 regulator, U4 voltage reference and power connector J4. Hook it up to power and check that the 5V, -12V, +12V and -10v reference voltages are OK
 
 Solder in all the chips, the larger caps and the trimpot RV1
 
