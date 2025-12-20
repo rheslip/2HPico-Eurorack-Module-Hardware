@@ -1,7 +1,7 @@
 # 2HPico-Eurorack-Module-Hardware
 2HP Eurorack module based on Raspberry Pi Pico 2
 
-KiCad design files, BOM and gerbers for main board and panel board
+KiCad design files, BOM, Gerbers for main board and panel board and 3D printable panel.
 Version 1.0 December 2025
 
 ![](https://github.com/rheslip/2HPico-Eurorack-Module-Hardware/blob/main/Images/IMG_0607.JPG)
@@ -67,7 +67,8 @@ The hardware is set up for +-5V output. If you want higher output levels you can
 
 ***Notes on the PT8211 DAC chips*** - I bought 10 on Aliexpress and I got a couple of defective ones. Symptom was no output from either left or right DAC, just a low amplitude glitch at the opamp outputs U6 pins 1 and 14. I suggest you buy from a couple of different vendors and cross your fingers. Alternatively Sparkfun and PJRC sell PT8211 kits for a few dollars that include a PT8211 presumably from a reputable source.
 
-
+***Notes on the Panel***
+STL file is included for a 3D printable panel which includes a collimator that sits over the RGB LED. I glued a short piece of transparent filament inside the collimator as a light pipe - for some reason commercial acrylic light pipes are stupidly expensive. The RGB LED is very bright even on 3.3v so I cut the level back in the code. I will probably design a silkscreened FR4 panel for it at some point.
 
 
 
