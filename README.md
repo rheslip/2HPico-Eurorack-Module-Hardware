@@ -1,8 +1,7 @@
 # 2HPico-Eurorack-Module-Hardware
 2HP Eurorack module based on Raspberry Pi RP2350 Pico 2
 
-Version 1.0 December 2025
-KiCad design files, BOM, Gerbers for main board and panel board and 3D printable panel.
+December 2025 - added Version 1.0 2HPico KiCad design files, BOM, Gerbers for main board and panel board and 3D printable panel.
 
 Jan 28/2025 - added Version 1.0 2HPico DSP design files. 
 
@@ -22,7 +21,7 @@ See the repository https://github.com/rheslip/2HPico-DSP-Sketches for Pico Ardui
 
 ![](https://github.com/rheslip/2HPico-Eurorack-Module-Hardware/blob/main/Images/IMG_0607.JPG)
 
-***General notes on the design***
+***General notes on the designs***
 
 Waveshare (and others) make small form factor RP2040 and RP2350 boards which make stuffing one into 2HP possible. The RP2350 has much better performance but for simple things like sequencers, ADSR, LFO etc the RP2040 should work OK. Core 0 runs the main processing loop for the UI and control,
 core 1 runs the DSP and sends samples to the I2S driver. The code has an option for monitoring the performance of core 1 with a scope. If enabled you will see a pulse on GPIO 8 that indicates how much time core 1 is spending processing samples. If its high more than 100% of the time you will get audio dropouts - time to overclock or optimize your code some more!
@@ -54,7 +53,7 @@ Solder all the 0603 Rs and Cs first
 
 Solder diodes, R1, U3 regulator, U4 voltage reference and power connector J4. Hook it up to power and check that the 5V, -12V, +12V and -10v reference voltages are OK
 
-Solder in all the chips, the larger caps and the trimpot RV1
+Solder in all the chips, the larger caps and the trimpot RV1 (2HPico only).
 
 The Waveshare RP2350 board cannot solder directly to the main PCB because it has components on the bottom side and must stand off a bit. You can solder .1" headers to it and solder the headers to the main PCB or solder .1" header pins in the corners and make the rest of the connections with short wires.
 
@@ -76,24 +75,32 @@ Clip the pins on the bottom side of the main PCB so they don't interfere with ad
 
 Solder one of the jumper pads on the bottom to select jack 2 on the panel as either DAC right channel out or a second CV/Gate input. This depends on what the module is supposed to do.
 
+The 2HPico DSP board has a "DC Input" solder jumper that should be shorted if you want to use the top jack as a CV input.
+
 ![](https://github.com/rheslip/2HPico-Eurorack-Module-Hardware/blob/main/Images/IMG_0601.JPG)
 
-It should be ready to go. You can load up the HWtest sketch and run it to check the pots, button, inputs and DAC functions
+It should be ready to go. You can load up the HWtest sketch and run it to check the pots, button, inputs and DAC functions.
 
 
-***Trimming the DAC output***
+***2HPico only - Trim the DAC output***
 
 Load up the ADSR app or mod the HWtest sketch so the I2S code is sending the value 0 to the DACs. Measure the level at the output jacks or at U6 pins 1 and 14 and trim RV1 to get as close to 0V as possible. There will probably still be a few mV difference between the channels. 
 Its set up for +-5V output corresponding to -32767 and 32767 DAC values respectively (output amp inverts the DAC signals). If you want higher output levels you can mod the output stage gain but keep in mind the offset and the lowpass filters also have to be recalculated.
 
 
-***Notes on the PT8211 DAC chips*** 
+***Notes on the PT8211 DAC chips for the 2HPico*** 
 
 I bought 10 on Aliexpress and I got a couple of defective ones. Symptom was no output from either left or right DAC, just a low amplitude glitch at the opamp outputs U6 pins 1 and 14. I suggest you buy from a couple of different vendors and cross your fingers. Alternatively Sparkfun and PJRC sell PT8211 kits for a few dollars that include a PT8211 presumably from a reputable source.
 
-***Notes on the Panel***
+***Notes on the PCM1808 and PCM5012A chips for the 2HPico DSP*** 
+
+The PCM1808 ADC is 24 bit only wheras the PCM5102A works with either 16 bit or 24 bit I2S audio. Since they are on the same I2S interface they must both run the same format. I was not able to get 24 bit I2S working with Arduino Pico but it does work with 32 bit I2S. The additional overhead is minimal since the processor and DMA are 32 bits.
+
+***Notes on the Panels***
 
 STL file is included for a 3D printable panel which includes a collimator that sits over the RGB LED. I glued a short piece of transparent filament inside the collimator as a light pipe - for some reason commercial acrylic light pipes are stupidly expensive. The RGB LED is very bright even on 3.3v so I cut the level back in the code. I will probably design a silkscreened FR4 panel for it at some point.
+
+FR4 front panel gerbers are also included. You will have to make a collimator from a small piece of plastic tubing to direct the RGB LED light to the hole in the panel. Untested as of 1/28/2025 but should work since it has the same dimensions as the 3D printed panel.
 
 ![](https://github.com/rheslip/2HPico-Eurorack-Module-Hardware/blob/main/Images/IMG_0608.JPG)
 
