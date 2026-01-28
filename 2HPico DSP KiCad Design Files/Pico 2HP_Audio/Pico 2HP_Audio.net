@@ -1,0 +1,321 @@
+(export 
+  (version "E") 
+  (design 
+    (source "D:\\Users\\Rich\\Documents\\Cad\\Kicad\\Pico 2HP\\Pico 2HP.kicad_sch") 
+    (date "2025-11-27T21:36:33-0500") 
+    (tool "Eeschema 9.0.6") 
+    (sheet 
+      (number "1") 
+      (name "/") 
+      (tstamps "/") 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "Pico 2HP.kicad_sch") 
+        (comment 
+          (number "1") 
+          (value "")) 
+        (comment 
+          (number "2") 
+          (value "")) 
+        (comment 
+          (number "3") 
+          (value "")) 
+        (comment 
+          (number "4") 
+          (value "")) 
+        (comment 
+          (number "5") 
+          (value "")) 
+        (comment 
+          (number "6") 
+          (value "")) 
+        (comment 
+          (number "7") 
+          (value "")) 
+        (comment 
+          (number "8") 
+          (value "")) 
+        (comment 
+          (number "9") 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref "RV1") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+      (datasheet "~") 
+      (description "Potentiometer") 
+      (fields 
+        (field 
+          (name "Footprint") "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Potentiometer")) 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Pico 2HP.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "resistor variable")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Potentiometer*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "3694d105-57e6-44f5-ba1d-11325aab0330")) 
+    (comp 
+      (ref "RV2") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+      (datasheet "~") 
+      (description "Potentiometer") 
+      (fields 
+        (field 
+          (name "Footprint") "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Potentiometer")) 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Pico 2HP.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "resistor variable")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Potentiometer*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "54174ffc-fcc2-4201-af64-dfb1cebac05f")) 
+    (comp 
+      (ref "RV3") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+      (datasheet "~") 
+      (description "Potentiometer") 
+      (fields 
+        (field 
+          (name "Footprint") "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Potentiometer")) 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Pico 2HP.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "resistor variable")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Potentiometer*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "080429e0-fe13-4a28-974c-fefc412a1bf4")) 
+    (comp 
+      (ref "RV4") 
+      (value "R_Potentiometer") 
+      (footprint "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+      (datasheet "~") 
+      (description "Potentiometer") 
+      (fields 
+        (field 
+          (name "Footprint") "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical") 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Potentiometer")) 
+      (libsource 
+        (lib "Device") 
+        (part "R_Potentiometer") 
+        (description "Potentiometer")) 
+      (property 
+        (name "Sheetname") 
+        (value "Root")) 
+      (property 
+        (name "Sheetfile") 
+        (value "Pico 2HP.kicad_sch")) 
+      (property 
+        (name "ki_keywords") 
+        (value "resistor variable")) 
+      (property 
+        (name "ki_fp_filters") 
+        (value "Potentiometer*")) 
+      (sheetpath 
+        (names "/") 
+        (tstamps "/")) 
+      (tstamps "47ee1986-dbaa-42e6-aa07-87a3d2294e44"))) 
+  (libparts 
+    (libpart 
+      (lib "Device") 
+      (part "R_Potentiometer") 
+      (description "Potentiometer") 
+      (docs "~") 
+      (footprints 
+        (fp "Potentiometer*")) 
+      (fields 
+        (field 
+          (name "Reference") "RV") 
+        (field 
+          (name "Value") "R_Potentiometer") 
+        (field 
+          (name "Footprint")) 
+        (field 
+          (name "Datasheet") "~") 
+        (field 
+          (name "Description") "Potentiometer")) 
+      (pins 
+        (pin 
+          (num "1") 
+          (name "1") 
+          (type "passive")) 
+        (pin 
+          (num "2") 
+          (name "2") 
+          (type "passive")) 
+        (pin 
+          (num "3") 
+          (name "3") 
+          (type "passive"))))) 
+  (libraries 
+    (library 
+      (logical "Device") 
+      (uri "C:\\Program Files\\KiCad\\9.0\\share\\kicad\\symbols\\/Device.kicad_sym"))) 
+  (nets 
+    (net 
+      (code "1") 
+      (name "unconnected-(RV1-Pad1)") 
+      (class "Default") 
+      (node 
+        (ref "RV1") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "2") 
+      (name "unconnected-(RV1-Pad2)") 
+      (class "Default") 
+      (node 
+        (ref "RV1") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "3") 
+      (name "unconnected-(RV1-Pad3)") 
+      (class "Default") 
+      (node 
+        (ref "RV1") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive"))) 
+    (net 
+      (code "4") 
+      (name "unconnected-(RV2-Pad1)") 
+      (class "Default") 
+      (node 
+        (ref "RV2") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "5") 
+      (name "unconnected-(RV2-Pad2)") 
+      (class "Default") 
+      (node 
+        (ref "RV2") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "6") 
+      (name "unconnected-(RV2-Pad3)") 
+      (class "Default") 
+      (node 
+        (ref "RV2") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive"))) 
+    (net 
+      (code "7") 
+      (name "unconnected-(RV3-Pad1)") 
+      (class "Default") 
+      (node 
+        (ref "RV3") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "8") 
+      (name "unconnected-(RV3-Pad2)") 
+      (class "Default") 
+      (node 
+        (ref "RV3") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "9") 
+      (name "unconnected-(RV3-Pad3)") 
+      (class "Default") 
+      (node 
+        (ref "RV3") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive"))) 
+    (net 
+      (code "10") 
+      (name "unconnected-(RV4-Pad1)") 
+      (class "Default") 
+      (node 
+        (ref "RV4") 
+        (pin "1") 
+        (pinfunction "1") 
+        (pintype "passive"))) 
+    (net 
+      (code "11") 
+      (name "unconnected-(RV4-Pad2)") 
+      (class "Default") 
+      (node 
+        (ref "RV4") 
+        (pin "2") 
+        (pinfunction "2") 
+        (pintype "passive"))) 
+    (net 
+      (code "12") 
+      (name "unconnected-(RV4-Pad3)") 
+      (class "Default") 
+      (node 
+        (ref "RV4") 
+        (pin "3") 
+        (pinfunction "3") 
+        (pintype "passive")))))
