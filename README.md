@@ -4,7 +4,11 @@
 KiCad design files, BOM, Gerbers for main board and panel board and 3D printable panel.
 Version 1.0 December 2025
 
+Jan 28/2025 - added 2HPico DSP design files. 2HPico DSP adds an audio ADC and DAC to enable signal processing. It uses the same front panel and panel PCB as the 2HPico.
+
 See the repository https://github.com/rheslip/2HPico-Sketches for Pico Arduino sketches to run on it.
+
+
 
 ![](https://github.com/rheslip/2HPico-Eurorack-Module-Hardware/blob/main/Images/IMG_0607.JPG)
 
