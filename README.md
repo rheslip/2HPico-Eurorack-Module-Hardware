@@ -3,7 +3,7 @@
 
 December 2025 - added Version 1.0 2HPico KiCad design files, BOM, Gerbers for main board and panel board and 3D printable panel.
 
-Jan 28/2025 - added Version 1.0 2HPico DSP design files. 
+Jan 28/2025 - added Version 1.0 2HPico DSP PCB design files and FR4 front panel design files and gerbers. 
 
 2HPico and 2HPico DSP are complimentary designs intended for different uses:
 
