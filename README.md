@@ -100,7 +100,7 @@ The PCM1808 ADC is 24 bit only wheras the PCM5102A works with either 16 bit or 2
 
 STL file is included for a 3D printable panel which includes a collimator that sits over the RGB LED. I glued a short piece of transparent filament inside the collimator as a light pipe - for some reason commercial acrylic light pipes are stupidly expensive. The RGB LED is very bright even on 3.3v so I cut the level back in the code. I will probably design a silkscreened FR4 panel for it at some point.
 
-FR4 front panel gerbers are also included. You will have to make a collimator from a small piece of plastic tubing to direct the RGB LED light to the hole in the panel. Untested as of 1/28/2025 but should work since it has the same dimensions as the 3D printed panel.
+FR4 front panel gerbers are also included. You will have to make a collimator from a small piece of plastic tubing to direct the RGB LED light to the hole in the panel. 
 
 ![](https://github.com/rheslip/2HPico-Eurorack-Module-Hardware/blob/main/Images/IMG_0608.JPG)
 
