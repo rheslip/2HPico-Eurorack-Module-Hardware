@@ -1,6 +1,10 @@
-JLCPCB Assembly files for the 2HPico DSP courtesy of Blake #abandonedireland on Youtube
+JLCPCB Assembly files for the 2HPico DSP courtesy of Blake @abandonedireland on Youtube
 
-** As of Feb 4/2026 these files are NOT verified**. They look OK to me but Blake has not received and tested his boards yet.
+Feb 16/2026 Blake has received and tested his boards - they work OK after R1 change. 
+ 
+A couple of small BOM changes as a result of testing:
+R1 reduced from 100 ohms to 47 ohms because 2HPico DSP draws more current than 2HPico
+R10, R17 increased from 5.6k to 10k to avoid clipping in output audio stage
 
 JLCPCB can do SMT assembly of PCBs at relatively low cost. Briefly, the procedure is:
 

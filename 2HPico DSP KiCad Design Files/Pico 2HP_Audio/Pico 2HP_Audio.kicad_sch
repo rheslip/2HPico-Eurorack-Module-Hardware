@@ -13710,7 +13710,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "47R"
 			(at 60.96 147.32 90)
 			(effects
 				(font

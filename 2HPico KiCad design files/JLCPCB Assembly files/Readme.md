@@ -1,6 +1,6 @@
-JLCPCB Assembly files for the 2HPico DSP courtesy of Blake #abandonedireland on Youtube
+JLCPCB Assembly files for the 2HPico DSP courtesy of Blake @abandonedireland on Youtube
 
-** As of Feb 4/2026 these files are NOT verified**. They look OK to me but Blake has not received and tested his boards yet.
+Feb 16/2026 - Blake has received and tested his boards and veriefied that they work OK.
 
 JLCPCB can do SMT assembly of PCBs at relatively low cost. Briefly, the procedure is:
 

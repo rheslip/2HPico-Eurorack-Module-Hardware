@@ -1,5 +1,8 @@
 Design files for the 2HPico DSP PCB
 
+Feb 16/2026 - changed R1 to 47 ohms because 2HPico DSP consumes almost twice as much power as the 2HPico
+changed R10 and R17 to 10k to reduce output amp gains - was getting some clipping at times.
+
 The DSP version uses the same front panel board as the 2HPico but replaces the PT8211 DAC with a PCM5102A audio DAC and adds a PCM1808 audio ADC. This version is intended to be used for audio processing. 
 
 The top input jack on the front panel can be used for audio input or CV input since its connected to both the audio ADC and the RP2350 ADC on GP26. A "DC Input" jumper has been added to the back of the PCB which shorts the DC blocking input capacitor so the top jack can be used as a CV input. 
