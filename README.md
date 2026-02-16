@@ -5,6 +5,8 @@ December 2025 - added Version 1.0 2HPico KiCad design files, BOM, Gerbers for ma
 
 Jan 28/2025 - added Version 1.0 2HPico DSP PCB design files and FR4 front panel design files and gerbers. 
 
+Feb 16/2026 - JLCPCB assembly files are now verifed. Minor BOM changes as a result of further testing.
+
 2HPico and 2HPico DSP are complimentary designs intended for different uses:
 
 
