@@ -7,7 +7,10 @@ Jan 28/2025 - added Version 1.0 2HPico DSP PCB design files and FR4 front panel 
 
 Feb 16/2026 - JLCPCB assembly files are now verifed. Minor BOM changes to 2HPico DSP as a result of further testing.
 
-April 13/2026 - added 4HPico files. Untested as of 4/13/2026. Panel design TBD.
+April 13/2026 - added 4HPico DSP PCB files. PCB fabbed, tested and working with 1 jumper. 
+
+May 6/2026 - updated 4HPico DSP PCB to V1.1 which corrects missing GND plane connection from middle to bottom of PCB. I have no plans to order these because V 1.0 is fine for me. Changes are minimal so not much risk in ordering V1.1
+Added .stl file for 3D printed panel. No plans to do a PCB panel at this point - I'm happy with the 3D printed panel.
 
 2HPico, 2HPico DSP and 4HPico are complementary designs intended for different uses:
 
